@@ -1,4 +1,4 @@
-**BaseService:**
+### **BaseService:**
 
 Has two methods RequestSpec builder and ResponseSpec builder. DRY the code nicely in one place.
 
@@ -14,7 +14,7 @@ Sets the baseuri, basepath and provides PAT for oauth2 verification
 
 It also has getter and setter for basepath.
 
-**LeadService:**
+### **LeadService:**
 
 It extends BaseService and provide implementation for requests.
 
@@ -30,7 +30,7 @@ Sets basepath /leads
 
 **getAllLeads** GET request
 
-**LeadServiceTest:**
+### **LeadServiceTest:**
 
 1- **testCreateNewLead** This POST request creates a new lead and set the setter.
 
@@ -42,7 +42,9 @@ Sets basepath /leads
 
 5- **testGetAllLeads** This GET request prints total number of leads exists.
 
-**Test Strategy**: Using Rest Assured make sure I can test API easily in short amount of time.
+### Test Strategy:
+
+Using Rest Assured make sure I can test API easily in short amount of time.
 I have used Jsonpath to parse json response.
 
 **Single Responsibility** Each test has single responsibility and include assertion(s).
