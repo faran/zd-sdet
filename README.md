@@ -66,3 +66,5 @@ I have used Jsonpath to parse json response.
 We can kick our test suite from command prompt, from project root run below maven command 
 
 >mvn clean test
+
+Project requirement is java and maven pre installed and available from path.
