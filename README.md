@@ -1,4 +1,5 @@
-### **BaseService:**
+### **BaseService:** 
+(src/main/java)
 
 Has two methods RequestSpec builder and ResponseSpec builder. DRY the code nicely in one place.
 
@@ -15,6 +16,7 @@ Sets the baseuri, basepath and provides PAT for oauth2 verification
 It also has getter and setter for basepath.
 
 ### **LeadService:**
+(src/main/java)
 
 It extends BaseService and provide implementation for requests.
 
@@ -31,6 +33,7 @@ Sets basepath /leads
 **getAllLeads** GET request
 
 ### **LeadServiceTest:**
+(src/main/test/java)
 
 1- **testCreateNewLead** This POST request creates a new lead and set the setter.
 
@@ -41,6 +44,17 @@ Sets basepath /leads
 4- **testUpdateLeadAddress** This PUT request updates the address which was null earlier.
 
 5- **testGetAllLeads** This GET request prints total number of leads exists.
+
+### **Resources:**
+(src/main/resources)
+
+**address.json** - payload for PUT updating address
+
+**newlead.json** - payload for POST creating new lead
+
+**log4j.properties** - log 4j appender
+
+**log4j2.xml** - log 4j appender
 
 ### Test Strategy:
 
