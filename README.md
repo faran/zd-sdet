@@ -1,4 +1,6 @@
-### **BaseService:** 
+Project requirement is java and maven, pre installed and available from path.
+
+### **BaseService:**
 (src/main/java)
 
 Has two methods RequestSpec builder and ResponseSpec builder. DRY the code nicely in one place.
