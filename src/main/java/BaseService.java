@@ -17,7 +17,7 @@ public class BaseService {
     }
 
     public String getPAT() {
-        return "b2c9619e3fd7559b1327e128feeff6f9753f3b246b7157a17cbc0adfb1274d3f";
+        return "";
     }
 
     public RequestSpecification requestSpec() {
